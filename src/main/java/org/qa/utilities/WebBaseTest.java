@@ -47,7 +47,7 @@ public class WebBaseTest extends QACore {
     @AfterSuite
     public void afterSuite() throws Exception {
         extentReports.flush();
-//        driver.quit();
+        driver.quit();
     }
 
     @BeforeMethod
